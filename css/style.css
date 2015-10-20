@@ -1,0 +1,65 @@
+@media screen and (min-width: 726px) /* Desktop */ {
+	body {
+		margin: 0;
+		line-height: 1.6em;
+	}
+
+	div.mainTitle {
+	 margin-top: 10%;
+	 margin-left: 5%;
+	 font-family: 'La Belle Aurore', cursive;
+	 font-size: 50px;
+	 max-width: 1200px;
+	/* font-family: 'Raleway', sans-serif;*/
+	/* font-family: 'Tenor Sans', sans-serif;*/
+	}
+
+	div.main {
+	  margin: auto;
+	  margin-top: 3%;
+	  max-width: 1200px;
+	}
+
+	div.mainItem {
+	  color: blue;
+	  background-color: orange;
+	  background-image: url("images/YingYang.JPG");
+	  width: 20vw;
+	  height: 20vw;
+	  margin: 2%;
+	}
+}
+
+
+@media screen and (max-width: 725px) /*Mobile*/  {
+	
+	body {
+		margin: 0;
+		line-height: 1.6em;
+	}
+
+	div.mainTitle {
+	 margin-top: 20%;
+	 margin-left: 5%;
+	 text-align: center;
+	 font-family: 'La Belle Aurore', cursive;
+	 font-size: 50px;
+	/* font-family: 'Raleway', sans-serif;*/
+	/* font-family: 'Tenor Sans', sans-serif;*/
+	}
+
+	div.main {
+	  margin: auto;
+	  margin-left: 3%;
+	  margin-top: 15%;
+	}
+
+	div.mainItem {
+	  color: yellow;
+	  background-color: purple;
+	  width: 43vw;
+	  height: 43vw;
+	  margin: 2%;
+	  margin-bottom: 7vw;
+	}
+}
